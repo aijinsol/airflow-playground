@@ -1,0 +1,43 @@
+# Ignore everything in the logs folder
+logs/*
+
+# Except the .gitkeep file
+!logs/.gitkeep
+
+# Created by https://www.toptal.com/developers/gitignore/api/macos,python
+# Edit at https://www.toptal.com/developers/gitignore?templates=macos,python
+
+### macOS ###
+# General
+.DS_Store
+
+### Python ###
+__pycache__/
+
+# Unit test
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# mypy
+.mypy_cache/
+
+# End of https://www.toptal.com/developers/gitignore/api/macos,python
